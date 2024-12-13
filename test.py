@@ -172,7 +172,8 @@ def main():
     if result:
         print(f"\n密码破解成功！Wi-Fi: {selected_network['SSID']}, 密码: {result}")
     else:
-        print("\n密码破解失败，未找到匹配的密码。")
+        print("\n密码破解失败，未找到匹配的 密码。")
 
 if __name__ == "__main__":
     main()
+    print("密码破解完成。")
